@@ -37,7 +37,7 @@ public class ContaTerminal {
         }
 
         while (true) {
-            System.out.println("\nPor favor digite a sua agência:  (exatamente 4 números)");
+            System.out.println("\nPor favor digite a sua agência: (exatamente 4 números)");
             agencia = scanner.nextLine();
             if (agencia.matches("\\d{4}")) {
                 agencia = agencia.substring(0, 3) + "-" + agencia.charAt(3);
